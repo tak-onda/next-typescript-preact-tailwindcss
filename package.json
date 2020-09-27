@@ -28,6 +28,7 @@
     ]
   },
   "dependencies": {
+    "@tailwindui/react": "^0.1.1",
     "next": "latest",
     "preact": "^10.5.2",
     "preact-render-to-string": "^5.1.10",
@@ -55,7 +56,10 @@
     "jest-watch-typeahead": "^0.5.0",
     "lint-staged": "^10.0.10",
     "npm-run-all": "^4.1.5",
+    "postcss-flexbugs-fixes": "^4.2.1",
+    "postcss-preset-env": "^6.7.0",
     "prettier": "^2.0.2",
+    "tailwindcss": "^1.8.10",
     "typescript": "^3.8.3"
   }
 }
