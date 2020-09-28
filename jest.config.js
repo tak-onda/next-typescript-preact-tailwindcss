@@ -11,6 +11,9 @@ module.exports = {
     'jest-watch-typeahead/testname',
   ],
   moduleNameMapper: {
+    '^react$': 'preact/compat',
+    '^react-dom/test-utils$': 'preact/test-utils',
+    '^react-dom$': 'preact/compat',
     '\\.(css|less|sass|scss)$': 'identity-obj-proxy',
     '\\.(gif|ttf|eot|svg|png)$': '<rootDir>/test/__mocks__/fileMock.js',
   },
